@@ -1,64 +1,43 @@
-**Drone Delivery Route Optimization Using AI Search Algorithms**
+# 🚁 Drone Delivery Route Optimization
 
 ## 📌 Project Overview
 
-This project implements and compares **six Artificial Intelligence search algorithms** to solve the **Drone Delivery Route Optimization Problem**.
-The delivery environment is represented as a **weighted graph**, where each node is a delivery point and each edge represents a possible drone path.
-
-The goal is to determine the **most efficient route** from the start location to the target location using different search techniques.
-
----
-
-## 🚀 Algorithms Implemented
-
-A diverse set of search paradigms were implemented by the team to ensure a comprehensive comparison:
-
-| Algorithm Name                 | Paradigm                     | Responsible Team Member |
-| :----------------------------- | :--------------------------- | :---------------------- |
-| **Depth First Search (DFS)**   | Uninformed Search            | Shimaa                  |
-| **Breadth First Search (BFS)** | Uninformed Search            | Hamza                   |
-| **Uniform Cost Search (UCS)**  | Cost-Based Uninformed Search | Mariam                  |
-| **Greedy Best-First Search**   | Heuristic Search             | Amira                   |
-| **A* Search (A-Star)**         | Optimal Heuristic Search     | Ismail                  |
-| **Genetic Algorithm (GA)**     | Evolutionary / Metaheuristic | Abdelrahman             |
+We are working on solving the **Drone Delivery Route Problem** using different AI search algorithms.
+The delivery area is represented as a **graph** (📍 nodes = locations, 🔗 edges = paths).
+Each team member is responsible for one algorithm.
 
 ---
 
-## 🎯 Objectives & Evaluation Metrics
+## 🧠 Algorithms & Team Members
 
-Each algorithm is evaluated using the following performance criteria:
+* 🟦 **Shimaa** – Depth First Search (DFS)
+* 🟩 **Hamza** – Breadth First Search (BFS)
+* 🟨 **Mariam** – Uniform Cost Search (UCS)
+* 🟥 **Ismail** – A* Search
+* 🟪 **Amira** – Greedy Search
+* 🧬 **Abdelrahman** – Genetic Algorithm
+* 📁 **Mohamed ElShemimy** – Collecting all results and organizing the final file
+* 📊 **Mohamed Abdelghany** – Final comparison between all algorithms
 
-* **Execution Time:** How fast the algorithm finds a route.
-* **Memory Usage:** Amount of memory used during the search.
-* **Solution Optimality:** How close the path cost is to the optimal route.
-* **Scalability:** Performance as the graph grows in size and complexity.
-* **Success Rate:** How consistently the algorithm produces a valid path.
+---
 
+## 🎯 Project Goal
 
-## 🧪 Tech Stack
+We will compare all algorithms based on:
 
-* **Programming Language:** Python 3.x
-* **Version Control:** GitHub
-* **Optional:** Matplotlib / NetworkX for graph visualization
+* ⚡ Execution time
+* 🧠 Memory usage
+* ✅ Reaching a solution or not
+* ⭐ Optimality of the solution
+* 📈 Performance on small vs large graphs
 
+---
 
+## ▶️ How to Run (Later)
 
-## 📈 Key Findings (Summary)
+1. Clone the project
+2. Run the Python files for each algorithm
+3. Check the results folder for outputs
 
-* **A*** produced the most optimal paths consistently.
-* **Greedy Search** was the fastest but not always optimal.
-* **UCS** found optimal solutions for weighted graphs.
-* **DFS & BFS** performed well on simple, unweighted graph structures.
-* **Genetic Algorithm** gave near-optimal results on large/complex graphs.
-
-
-## 👥 Team Members
-
-| Member Name     | Contribution                                        |
-| :-------------- | :-------------------------------------------------- |
-| **Shimaa**      | DFS Implementation & Analysis                       |
-| **Hamza**       | BFS Implementation & Analysis                       |
-| **Mariam**      | UCS Implementation & Analysis                       |
-| **Amira**       | Greedy Search Implementation & Analysis             |
-| **Ismail**      | A* Search Implementation & Analysis                 |
-| **Abdelrahman** | Genetic Algorithm Implementation & Final Comparison |
+Team Leader
+Shimaa : DFS implementation + GitHub management + Proposal work
